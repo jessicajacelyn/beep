@@ -1,7 +1,8 @@
 <template>
+  <link rel="stylesheet" href="css/mystyles.css" />
   <div class="columns">
-    <div class="column is-one-fifth">
-      <figure class="image is-128x128">
+    <div class="column is-one-fifth has-text-centered">
+      <figure class="image is-128x128 is-inline-block">
         <img
           class="is-rounded mt-5 ml-4"
           src="https://cdn.vuetifyjs.com/images/john.jpg"
@@ -9,8 +10,8 @@
       </figure>
       <section>
         <div>
-          <p class="is-size-5 mt-4 ml-3">{{ user.name }}</p>
-          <p class="is-size-6 ml-3">{{ user.email }}</p>
+          <p class="is-size-5 mt-5 ml-5">{{ user.name }}</p>
+          <p class="is-size-6 ml-5">{{ user.email }}</p>
         </div>
       </section>
       <aside class="menu mt-4">
