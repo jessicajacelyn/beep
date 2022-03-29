@@ -7,6 +7,10 @@
     "build": "npx vite build"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "@mdi/font": "^6.6.96",
     "bulma": "^0.9.3",
     "simpler-fetch": "^6.1.1",
     "vue": "^3.2.31",

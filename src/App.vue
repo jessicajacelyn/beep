@@ -1,7 +1,22 @@
 <template>
+  <Sidebar />
+  <Navbar />
   <!-- Center router view element horizontally -->
   <router-view class="container" />
 </template>
+
+<script>
+import Sidebar from "./components/Sidebar.vue";
+import Navbar from "./components/Navbar.vue";
+
+export default {
+  name: "App",
+  components: {
+    Sidebar,
+    Navbar,
+  },
+};
+</script>
 
 <style>
 /* Unscoped styles that applies to the entire application */
