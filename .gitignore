@@ -1,0 +1,4 @@
+node_modules/
+
+# Vite output dir
+docs/

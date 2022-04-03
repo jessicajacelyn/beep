@@ -7,7 +7,7 @@
     "preview": "npx vite preview --port 8080",
     "build": "npx vite build",
     "css-build": "node-sass --omit-source-map-url sass/mystyles.scss css/mystyles.css",
-    "deploy": "npx simple-github-pages-deploy"
+    "deploy": "npm run build && npx simple-github-pages-deploy"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
