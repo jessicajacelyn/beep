@@ -1,19 +1,19 @@
 <template>
   <Navbar />
-  <Sidebar />
-  <!-- Center router view element horizontally -->
+  <Reward />
   <router-view class="container" />
 </template>
 
 <script>
-import Sidebar from "./components/Sidebar.vue";
 import Navbar from "./components/Navbar.vue";
+import Reward from "./components/Reward.vue";
 
 export default {
   name: "App",
   components: {
-    Sidebar,
+    // Sidebar,
     Navbar,
+    Reward,
   },
 };
 </script>

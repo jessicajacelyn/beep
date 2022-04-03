@@ -1,5 +1,5 @@
 import { createRouter, createWebHashHistory } from "vue-router";
-import Home from "./components/Home.vue";
+import Reward from "./components/Reward.vue";
 
 export default createRouter({
   history: createWebHashHistory(),
@@ -19,8 +19,8 @@ export default createRouter({
   routes: [
     {
       path: "/",
-      name: "home",
-      component: Home,
+      name: "reward",
+      component: Reward,
     },
 
     /* Public only routes */
