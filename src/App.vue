@@ -1,19 +1,16 @@
 <template>
   <Navbar />
-  <Reward />
   <router-view class="container" />
 </template>
 
 <script>
 import Navbar from "./components/Navbar.vue";
-import Reward from "./components/Reward.vue";
 
 export default {
   name: "App",
   components: {
     // Sidebar,
     Navbar,
-    Reward,
   },
 };
 </script>

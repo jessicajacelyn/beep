@@ -1,20 +1,5 @@
 <script setup>
 const location = window.location.toString();
-
-// An example for a issue reporting function
-// async function report() {
-//   const { getAuthHeader } = await import("../firebase.js");
-//   const { oof } = await import("simpler-fetch");
-
-//   const res = await oof
-//     .POST("/error")
-//     .header(await getAuthHeader())
-//     .data({ error: "404 route", data: location })
-//     .runJSON()
-//     .catch((e) => alert(`Error: ${e.message}`));
-
-//   if (res.ok) alert(`Error reported, case number: ${res.id}`);
-// }
 </script>
 
 <template>
@@ -59,7 +44,7 @@ const location = window.location.toString();
     <div class="column is-half">
       <router-link
         class="button is-light is-success is-fullwidth"
-        :to="{ name: 'home' }"
+        :to="{ name: 'reward' }"
       >
         Home
       </router-link>
